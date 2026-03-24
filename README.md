@@ -37,7 +37,7 @@ Mods used:
 - TabFocus
 - ZBufferFog
 
-All testing was done with 100 world resets.
+All testing was done with 100 world resets. The farmost right numbers are the system RAM
 
 ## No Memory Fix (before)
 
