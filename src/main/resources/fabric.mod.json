@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "memoryfix",
+  "version": "${version}",
+  "name": "MemoryFix",
+  "description": "Singleplayer shutdown and reset memory fix for Minecraft 1.7.10",
+  "environment": "*",
+  "mixins": [
+    "memoryfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.20",
+    "minecraft": "{{MC_VERSION}}"
+  }
+}

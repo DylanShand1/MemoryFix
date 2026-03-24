@@ -1,0 +1,40 @@
+{
+  "required": true,
+  "package": "com.memoryfix.mixin",
+  "mixins": [
+    "AnvilLevelStorageMixin",
+    "ChunkAccessor",
+    "EntityAccessor",
+    "EntityTrackerAccessor",
+    "IntArrayCacheMixin",
+    "MinecraftServerAccessor",
+    "MinecraftServerMemoryFixMixin",
+    "PersistentStateManagerAccessor",
+    "PlayerWorldManagerAccessor",
+    "PortalTeleporterAccessor",
+    "RedstoneTorchBlockMemoryFixMixin",
+    "ScoreboardAccessor",
+    "ServerNetworkIoAccessor",
+    "ServerThreadMemoryFixMixin",
+    "ServerChunkProviderAccessor",
+    "ServerWorldAccessor",
+    "WorldAccessor",
+    "ServerWorldCloseMemoryFixMixin"
+  ],
+  "client": [
+    "ClientChunkProviderAccessor",
+    "ClientPlayerEntityAccessor",
+    "ClientPlayNetworkHandlerAccessor",
+    "ClientPlayerInteractionManagerAccessor",
+    "ClientWorldAccessor",
+    "ControllablePlayerEntityAccessor",
+    "MinecraftClientMemoryFixMixin",
+    "TextureManagerCloseMixin",
+    "TitleScreenAccessor",
+    "WorldRendererAccessor",
+    "WorldRendererMemoryFixMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
